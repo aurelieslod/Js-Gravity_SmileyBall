@@ -47,6 +47,7 @@ function update(){
   ballshape.style.transform = "rotate(" + ang + "deg)";
 
   document.onkeypress = function(e){
+    console.log(e.keyCode);
     if(e.keyCode == "37"){
       vx += -5;
     }
@@ -59,10 +60,9 @@ function update(){
     if(e.keyCode == "40"){
       vy += 5;
     }
+    if(e.keyCode == "0"){
+      vr += 50;
+    }
   }
 
 }
-
-document.onkeypress = function(e){
-    console.log(e.keyCode);
-  }
