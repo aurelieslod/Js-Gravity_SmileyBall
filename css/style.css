@@ -1,0 +1,27 @@
+#areadiv{
+  width: 700px;
+  height: 450px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top : 100px;
+  background-color: rgb(112, 96, 96);
+}
+
+#balle{
+  /*border: 1px solid red;*/
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+
+#ballshape{
+  border: 1px solid black;
+  background-image: url("../images/smiley2.png");
+  background-size: contain;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+}
